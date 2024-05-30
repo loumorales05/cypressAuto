@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login into the site with valid data",
+    "line": 1,
+    "id": "login-into-the-site-with-valid-data",
+    "tags": [],
+    "uri": "FreePlan.feature",
+    "elements": [
+      {
+        "id": "login-into-the-site-with-valid-data;login-into-the-application-with-valid-data",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login into the application with valid data",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I visit the free plan page",
+            "result": {
+              "status": "passed",
+              "duration": 1937000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I input a search term",
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Page title is verified",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
