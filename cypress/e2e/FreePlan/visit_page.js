@@ -7,8 +7,8 @@ Given('I visit the free plan page', async () => {
     home.enterURL();
 });
 
-When("I input a search term", async () => {
-    home.enterSearchTerm();
+When("I Click on Start now button", async () => {
+    home.clickStartNow();
 });
 
 Then("Page title is verified", async () => {

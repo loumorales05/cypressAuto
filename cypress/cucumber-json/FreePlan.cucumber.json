@@ -22,17 +22,17 @@
             "name": "I visit the free plan page",
             "result": {
               "status": "passed",
-              "duration": 1937000000
+              "duration": 1807000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I input a search term",
+            "name": "I Click on Start now button",
             "result": {
               "status": "passed",
-              "duration": 221000000
+              "duration": 781000000
             }
           },
           {
@@ -41,8 +41,9 @@
             "line": 6,
             "name": "Page title is verified",
             "result": {
-              "status": "passed",
-              "duration": 17000000
+              "status": "failed",
+              "duration": 4019000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'EngineBI' to equal 'Google'\n    + expected - actual\n\n    -'EngineBI'\n    +'Google'\n\n    at goToHomePage.verifyTitle (cypress/e2e/tasks/goToHomePage.cy.js:11:24)\n    at _callee3$ (cypress/e2e/FreePlan/visit_page.js:15:9)\n    at tryCatch (node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:0)\n    at Generator.eval (node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:0)\n    at Generator.eval [as next] (node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:0)\n    at asyncGeneratorStep (node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:0)\n    at _next (node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:0)\n    at eval (node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:0)\nat new Promise (<anonymous>)\n    at Context.eval (node_modules/@babel/runtime/helpers/asyncToGenerator.js:14:0)"
             }
           }
         ]
